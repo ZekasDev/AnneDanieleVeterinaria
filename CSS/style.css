@@ -1,0 +1,96 @@
+body,
+html {
+  margin: 0;
+  font: 16px "Lato", sans-serif;
+  color: #777;
+  height: 100%;
+}
+
+.conteudo {
+  color: #777;
+  background-color: #fff;
+  text-align: justify;
+  padding: 50px 80px;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.caixa1::after,
+.caixa2::after,
+.caixa3::after,
+.caixa4::after {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+}
+
+.caixa1,
+.caixa2,
+.caixa3,
+.caixa4 {
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.caixa1 {
+  background-image: url(../imagens/imagem1.jpg);
+  gap: 50px;
+}
+
+.caixa2 {
+  background-image: url(../imagens/imagem5.jpg);
+}
+
+.caixa3 {
+  background-image: url(../imagens/imagem2.jpg);
+}
+
+.caixa4 {
+  background-image: url(../imagens/imagem4.jpg);
+}
+
+.caixa-conteudo {
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+
+.caixa-conteudo span.titulo {
+  color: #fff;
+  background-color: #111;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.bubu {
+  border-radius: 100%;
+  width: 12rem;
+  z-index: 1;
+}
+
+.colorindex {
+  color: #e619b9;
+}
