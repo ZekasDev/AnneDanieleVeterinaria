@@ -11,6 +11,10 @@ html {
   background-color: #fff;
   text-align: justify;
   padding: 50px 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
 }
 
 h3 {
@@ -21,6 +25,9 @@ h3 {
 
 p {
   margin-bottom: 20px;
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .caixa1::after,
@@ -94,3 +101,12 @@ p {
 .colorindex {
   color: #e619b9;
 }
+
+ul {
+  border: solid red 1px;
+  list-style: none;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
